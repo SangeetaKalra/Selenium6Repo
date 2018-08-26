@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53112" started-at="2018-08-11T16:57:12Z" finished-at="2018-08-11T16:58:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53112" started-at="2018-08-11T16:57:12Z" finished-at="2018-08-11T16:58:05Z">
+      <class name="testScript.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@5faeada1]" name="launchBrowser" is-config="true" duration-ms="5053" started-at="2018-08-11T16:57:12Z" finished-at="2018-08-11T16:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testGoogleLink()[pri:0, instance:testScript.Test1@5faeada1]" name="testGoogleLink" duration-ms="1624" started-at="2018-08-11T16:57:17Z" finished-at="2018-08-11T16:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@5faeada1]" name="closeBrowser" is-config="true" duration-ms="808" started-at="2018-08-11T16:57:18Z" finished-at="2018-08-11T16:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test1 -->
+      <class name="testScript.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test2@528931cf]" name="launchBrowser" is-config="true" duration-ms="4260" started-at="2018-08-11T16:57:34Z" finished-at="2018-08-11T16:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testFacebookLink()[pri:0, instance:testScript.Test2@528931cf]" name="testFacebookLink" duration-ms="4733" started-at="2018-08-11T16:57:38Z" finished-at="2018-08-11T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test2@528931cf]" name="closeBrowser" is-config="true" duration-ms="886" started-at="2018-08-11T16:57:43Z" finished-at="2018-08-11T16:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test2 -->
+      <class name="pack1.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="launchBrowser" is-config="true" duration-ms="4322" started-at="2018-08-11T16:57:19Z" finished-at="2018-08-11T16:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="insta()[pri:0, instance:pack1.Test2@ea1a8d5]" name="insta" duration-ms="2724" started-at="2018-08-11T16:57:23Z" finished-at="2018-08-11T16:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insta -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="closeBrowser" is-config="true" duration-ms="813" started-at="2018-08-11T16:57:26Z" finished-at="2018-08-11T16:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="launchBrowser" is-config="true" duration-ms="4775" started-at="2018-08-11T16:57:51Z" finished-at="2018-08-11T16:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="google()[pri:1, instance:pack1.Test2@ea1a8d5]" name="google" duration-ms="1378" started-at="2018-08-11T16:57:56Z" finished-at="2018-08-11T16:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="closeBrowser" is-config="true" duration-ms="787" started-at="2018-08-11T16:57:57Z" finished-at="2018-08-11T16:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="launchBrowser" is-config="true" duration-ms="3719" started-at="2018-08-11T16:57:58Z" finished-at="2018-08-11T16:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="facebook()[pri:3, instance:pack1.Test2@ea1a8d5]" name="facebook" duration-ms="2450" started-at="2018-08-11T16:58:01Z" finished-at="2018-08-11T16:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pack1.Test2@ea1a8d5]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2018-08-11T16:58:04Z" finished-at="2018-08-11T16:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pack1.Test2 -->
+      <class name="testScript.Test3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test3@1563da5]" name="launchBrowser" is-config="true" duration-ms="4289" started-at="2018-08-11T16:57:27Z" finished-at="2018-08-11T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testTwitterLink()[pri:0, instance:testScript.Test3@1563da5]" name="testTwitterLink" duration-ms="1688" started-at="2018-08-11T16:57:31Z" finished-at="2018-08-11T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwitterLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test3@1563da5]" name="closeBrowser" is-config="true" duration-ms="821" started-at="2018-08-11T16:57:33Z" finished-at="2018-08-11T16:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test3 -->
+      <class name="testScript.Test4">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test4@2bbf4b8b]" name="launchBrowser" is-config="true" duration-ms="4087" started-at="2018-08-11T16:57:44Z" finished-at="2018-08-11T16:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testInstaLink()[pri:0, instance:testScript.Test4@2bbf4b8b]" name="testInstaLink" duration-ms="2190" started-at="2018-08-11T16:57:48Z" finished-at="2018-08-11T16:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInstaLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test4@2bbf4b8b]" name="closeBrowser" is-config="true" duration-ms="842" started-at="2018-08-11T16:57:50Z" finished-at="2018-08-11T16:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
